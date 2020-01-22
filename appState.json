@@ -1,0 +1,140 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "cf740252-235f-4fa5-9566-fc3dfb5c0a43": {
+        "id": "cf740252-235f-4fa5-9566-fc3dfb5c0a43",
+        "parent": null,
+        "name": "smokehk2201",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "56cf9870-3153-4d72-ab52-eb4f508ccaed",
+          "5f88ca59-f3d7-46aa-9efe-3f41c4594587",
+          "43798e99-2038-432d-877f-11dbbc70dec5"
+        ],
+        "isRemovable": false,
+        "filePath": "smokehk2201"
+      },
+      "56cf9870-3153-4d72-ab52-eb4f508ccaed": {
+        "id": "56cf9870-3153-4d72-ab52-eb4f508ccaed",
+        "parent": "cf740252-235f-4fa5-9566-fc3dfb5c0a43",
+        "name": "function.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "smokehk2201/function.js",
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "7b596d1d-5c68-41c9-ab78-f41ffa1eb13f": {
+        "id": "7b596d1d-5c68-41c9-ab78-f41ffa1eb13f",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "784109df-5af6-46e0-b38a-41dfbfb9a12f": {
+        "id": "784109df-5af6-46e0-b38a-41dfbfb9a12f",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "5f88ca59-f3d7-46aa-9efe-3f41c4594587": {
+        "id": "5f88ca59-f3d7-46aa-9efe-3f41c4594587",
+        "parent": "cf740252-235f-4fa5-9566-fc3dfb5c0a43",
+        "name": "test.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "smokehk2201/test.py",
+        "config": {
+          "runtime": "python37",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "43798e99-2038-432d-877f-11dbbc70dec5": {
+        "id": "43798e99-2038-432d-877f-11dbbc70dec5",
+        "parent": "cf740252-235f-4fa5-9566-fc3dfb5c0a43",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "smokehk2201/__init__.py"
+      }
+    },
+    "rootNode": "cf740252-235f-4fa5-9566-fc3dfb5c0a43",
+    "openFiles": [
+      "56cf9870-3153-4d72-ab52-eb4f508ccaed",
+      "5f88ca59-f3d7-46aa-9efe-3f41c4594587"
+    ],
+    "currentFileId": "5f88ca59-f3d7-46aa-9efe-3f41c4594587",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "5f88ca59-f3d7-46aa-9efe-3f41c4594587",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/smokehk2201",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "smokehk2201",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "asia-east2",
+    "platform": "GCP",
+    "platformRegions": {},
+    "lastSave": 1579684763930
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "smokehk2201",
+      "url": "https://github.com/HirudineeADRT/smokehk2201"
+    }
+  }
+}
